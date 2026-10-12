@@ -1,0 +1,9 @@
+# never publish PDFs, parsed outputs or raw corpora
+*.pdf
+*.zip
+*.json
+*.log
+解析输出/
+arxiv文章/
+代码与数据/
+node_modules/
