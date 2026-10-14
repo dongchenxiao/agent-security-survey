@@ -35,8 +35,8 @@ security of LLM-based agents. The survey covers three domains:
 
 | Metric | Value |
 | --- | --- |
-| Paper corpus | 4,239 papers |
-| Abstract-level LLM screening | K = 1,060 / S = 691 / D = 748 + 1,740 baseline/union |
+| Paper corpus | 4,913 papers |
+| Abstract-level LLM screening | K = 1,414 / S = 1,011 / D = 748 + 1,740 baseline/union; +674 backfilled from a legacy keyword-database recheck |
 | Core set (full text parsed via MinerU) | 152 papers |
 | Trend documents | 3 |
 | Coverage | 2021 – 2026 |
@@ -46,7 +46,7 @@ security of LLM-based agents. The survey covers three domains:
 
 | Path | Description |
 | --- | --- |
-| `manifest.csv` | Machine-readable index of the 4,239-paper corpus: id, title, year, authors, citations, domain, subtopic, verdict, note, plus local flags (pdf/parsed status) |
+| `manifest.csv` | Machine-readable index of the 4,913-paper corpus: id, title, year, authors, citations, domain, subtopic, verdict, note, plus local flags (pdf/parsed status) |
 | `reports/` | Main survey report and a curated reading list with guide (in Chinese) |
 | `trends/` | Three trend analysis documents: agent security, RAG security, embodied agent security (in Chinese) |
 
